@@ -1,11 +1,10 @@
 import "./App.css";
-
-import UseRefExample from "./components/UseRefExample";
+import ThemeToggleButton from "./components/ThemeToggleButton";
 
 function App() {
   return (
     <>
-      <UseRefExample></UseRefExample>
+      <ThemeToggleButton></ThemeToggleButton>
     </>
   );
 }
