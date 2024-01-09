@@ -1,10 +1,10 @@
 import "./App.css";
-import UseStateExample from "./components/useStateExample";
+import UseReducerExample from "./components/UseReducerExample";
 
 function App() {
   return (
     <>
-      <UseStateExample></UseStateExample>
+      <UseReducerExample></UseReducerExample>
     </>
   );
 }
