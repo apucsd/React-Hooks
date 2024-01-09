@@ -1,10 +1,10 @@
 import "./App.css";
-import UserEffectExample from "./components/UserEffectExample";
+import UseEffectCleanConcept from "./components/UseEffectCleanConcept";
 
 function App() {
   return (
     <>
-      <UserEffectExample></UserEffectExample>
+      <UseEffectCleanConcept></UseEffectCleanConcept>
     </>
   );
 }
