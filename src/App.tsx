@@ -1,10 +1,11 @@
 import "./App.css";
-import UseEffectCleanConcept from "./components/UseEffectCleanConcept";
+
+import UseRefExample from "./components/UseRefExample";
 
 function App() {
   return (
     <>
-      <UseEffectCleanConcept></UseEffectCleanConcept>
+      <UseRefExample></UseRefExample>
     </>
   );
 }
