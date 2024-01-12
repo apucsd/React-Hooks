@@ -1,14 +1,17 @@
 import "./App.css";
-import { Menu, MenuItem } from "./components/Menu";
-import ThemeToggleButton from "./components/ThemeToggleButton";
-
+import Avatar from "./components/Avatar";
+import withBorder from "./components/withBorder";
 function App() {
+  const BorderedAvatar = withBorder(Avatar);
   return (
     <>
-      <ThemeToggleButton></ThemeToggleButton>
-      <Menu>
-        <MenuItem></MenuItem>
-      </Menu>
+      <div className="flex justify-center items-center mt-10">
+        <Avatar></Avatar>
+        <Avatar></Avatar>
+        <Avatar></Avatar>
+        <Avatar></Avatar>
+        <BorderedAvatar></BorderedAvatar>
+      </div>
     </>
   );
 }

@@ -8,7 +8,6 @@ export const Menu = ({ children }) => {
     </MenuContext.Provider>
   );
 };
-
 export const MenuItem = () => {
   const { theme } = useContext(MenuContext);
   console.log(theme);
